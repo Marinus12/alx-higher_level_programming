@@ -6,4 +6,4 @@ def islower(c):
     if ord(c) in lowercase:
         return True
     else:
-            return False
+        return False
