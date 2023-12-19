@@ -1,10 +1,13 @@
 #!/usr/bin/python3
+
 import sys
+
+
 def safe_print_integer_err(value):
     """Prints an integer with "{:d}".format{}.
 
     If a ValueError message is caught. a corresponding
-    message is printed to standatd error.
+    message is printed to standard error.
 
     Args:
         va;ue (int): The integer to print.
