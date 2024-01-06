@@ -11,7 +11,7 @@ class Rectangle:
         Args:
             width: (int): The width of the new rectangle.
             height: (int): The height of thr new rectangle.
-            """
+        """
         self.width = width
         self.height = height
 
@@ -26,7 +26,7 @@ class Rectangle:
             raise TypeError("width must be an integer")
         if value < 0:
             raise ValueError("width must be >= 0")
-            self.__width = value
+        self.__width = value
 
     @property
     def height(self):
