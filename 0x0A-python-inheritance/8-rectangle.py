@@ -13,7 +13,7 @@ class Rectangle(BaseGeometry):
             width (int): The width of the rectangle
             height (int): The height of the rectangle.
         """
-        swlf.integer_validator("width", width)
+        self.integer_validator("width", width)
         self.__width = width
         self.integer_validator("height", height)
         self.__height = height
