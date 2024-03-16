@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""A script that takes in the name of state as an argument 
+"""A script that takes in the name of state as an argument
 and lists all citites of the state
 """
 
