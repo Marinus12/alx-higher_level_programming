@@ -10,6 +10,7 @@ from relationship_city import Base, City
 
 Base = declarative_base()
 
+
 class State(Base):
     """State class to represent states table."""
     __tablename__ = "states"
